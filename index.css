@@ -1,0 +1,26 @@
+/* mouse over link */
+a:hover {
+    color: rgb(255, 0, 0);
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a{
+    margin-left: 95%;
+  }
+
+  .center{
+     text-align: center; 
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {background-color: yellow;}
