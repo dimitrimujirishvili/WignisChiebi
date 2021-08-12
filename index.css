@@ -20,7 +20,8 @@ a:hover {
   th, td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1.5px solid rgb(0, 0, 0);
   }
   
-  tr:hover {background-color: yellow;}
+  tr:hover {background-color: rgb(43, 255, 0);}
+  tr:hover {color: rgb(255, 0, 0);}
