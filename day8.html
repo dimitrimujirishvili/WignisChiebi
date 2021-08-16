@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="text1.css">
+    <link rel="icon" type="image/x-icon" href="anime1.jpg">
+    <title>
+        ანიმე სურათები.ge
+    </title>
+
+</head>
+
+<body style="background-color: rgb(252, 208, 215);">
+   
+    <img style="height: 100px; width: 100px; border-radius: 50px;" src="https://images6.fanpop.com/image/photos/43300000/cute-anime-girls-purrsugakits-43388514-400-400.jpg">
+        
+    <select name="forma" onchange="location = this.value;"   class="div2" style="margin-left: 1600px ;border-radius:20px ;width: 200px;border: 2px solid black; height: 50px; background-color: aqua; margin-top: -1000px;">
+        <option value="text.html">არჩევა</option>
+        <option value="index.html">საწყისი</option>
+        <option value="day1.html">უკან</option>
+        <option value="day2.html">ტუტორიალი</option>
+       </select>
+<mark style="color: blue;"><h2>ანიმეები დროდადრო დაემატება</h2></mark>
+
+    <br>
+    <br>
+    <br>
+ 
+    <div id="firstDiv" class="flex-container">
+    
+    </div>
+    <script>
+        const animes = [
+        { name: '<a href="day 55.html">tanjiro Kamado</a>', img: 'https://i.pinimg.com/736x/13/bd/6b/13bd6bfddafac4183ecced1872c940fb.jpg' },
+            { name: '<a href="day 55.html">hashibira Inosuke</a>', img: 'https://ae01.alicdn.com/kf/Hab05aff2de3c438fa5f1b4f3eef9e5a2L/Hashibira-Inosuke-Short-Blue-Ombre-Wig-Demon-Slayer-Kimetsu-no-Yaiba-Heat-Resistant-Hair-Cosplay-Costume.jpg' },
+            { name: '<a href="day 55.html">Kyōjurō Rengoku</a>', img: 'https://hollywoodzam.com/wp-content/uploads/2021/04/Kyojuro-Rengoku-1.jpg' },
+            { name: '<a href="day 55.html">Nezuko Kamado</a>', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcZDLGsvo64mI2iGmd7YA1b0ED_HrwFdeLA&usqp=CAU' },
+            { name: '<a href="day 55.html">zenitsu Agatsuma</a>', img: 'https://i1.sndcdn.com/artworks-000594656334-8g9820-t500x500.jpg' },
+            { name: '<a href="day 55.html">Sanemi Shinazugawa</a>', img: 'https://i1.sndcdn.com/artworks-Ey3ib4try3sFoju5-kxPSTA-t500x500.jpg' },
+            { name: '<a href="day 55.html">Tengen Uzui</a>', img: 'https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:350/h:350/q:75/rt:fill/g:ce/https://bleedingcool.com/wp-content/uploads/2021/02/EuL_UoiVkAcoEKKb-350x350.jpg' },
+            { name: '<a href="day 55.html">akaza</a>', img: 'https://i1.sndcdn.com/artworks-XrVX2qtCULCZM94T-bz8VIw-t500x500.jpg' },
+
+            { name: '<a href="day 55.html">Enmu</a>', img: 'https://cdn.myanimelist.net/r/360x360/images/characters/16/440983.jpg?s=116863c127477113006302697bb29e17' },
+            { name: '<a href="day 55.html">Shinobu Kochō</a>', img: 'https://i.pinimg.com/280x280_RS/29/54/25/295425843c03e3e02ee3830add40de09.jpg' },
+            { name: '<a href="day 55.html">Gyomei Himejima</a>', img: 'https://ih1.redbubble.net/image.1857671456.4336/flat,750x1000,075,f.jpg'},
+            { name: '<a href="day 55.html">Giyū Tomioka</a>', img: 'https://cdn130.picsart.com/343505031021201.jpg?type=webp&to=min&r=640' },
+            { name: '<a href="day 55.html">Kagaya Ubuyashiki</a>', img: 'https://pbs.twimg.com/media/EEekQx_XYAYXq9o.jpg' },
+            { name: '<a href="day 55.html">Obanai Iguro</a>', img: 'https://i.pinimg.com/originals/45/3a/fd/453afd4b4fd3eead7f06614fa6db57bc.jpg' },
+            { name: '<a href="day 55.html">Senjuro Rengoku</a>', img: 'http://pm1.narvii.com/7726/d8c9de3006040a859b719ea594195c0081d4b2e2r1-1080-1072v2_00.jpg' },
+            { name: '<a href="day 55.html">Takeo Kamado</a>', img: 'https://i.pinimg.com/originals/a1/75/08/a1750833d0fde0ddb223f9b679e02d97.jpg' },
+
+            { name: '<a href="day 55.html">Shigeru Kamado</a>', img: 'https://44.media.tumblr.com/d24f9874702931cb50c3f0addc39858d/tumblr_pwnqnznEOH1s1n6fio4_640.gif' },
+            { name: '<a href="day 55.html">Hanako Kamado </a> ', img: 'https://i.pinimg.com/originals/57/b7/30/57b730715b20c9f1cce4842f48b1442a.jpg' },
+            { name: '<a href="day 55.html">Rokuta Kamado</a>', img: 'https://i.pinimg.com/originals/cc/7e/f6/cc7ef652a2f936d19f89f91d4e709281.jpg' },
+            { name: '<a href="day 55.html">Tanjuro Kamado</a>', img: 'https://i.ytimg.com/vi/fcaT7a8UO48/hqdefault.jpg' },
+            { name: '<a href="day 55.html">Kie Kamado</a>', img: 'https://64.media.tumblr.com/2e6074b24f890e0530562a5261eb8820/328a38dcdebf498d-6a/s1280x1920/e755a3d9e1287d8e1e4afbb971f5c449c5281fbb.jpg' },
+            { name: '<a href="day 55.html">Sakonji Urokodaki</a>', img: 'https://i.pinimg.com/originals/48/7a/95/487a95800e253f508917847debd9e312.png' },
+            { name: '<a href="day 55.html">Ruka Rengoku</a>', img: 'https://i.pinimg.com/originals/b3/8f/9a/b38f9a1aeb0dd6a253090278687c2e48.jpg' },
+    
+    ]
+            for (anime of animes) {
+           console.log(anime);
+           var containerDiv = document.createElement('div');
+
+           var imageElement = document.createElement('img');
+           imageElement.src = anime.img;
+
+           var italicElement = document.createElement('i');
+           italicElement.innerHTML = anime.name;
+           var h6Element = document.createElement('h6');
+           h6Element.appendChild(italicElement);
+
+           containerDiv.appendChild(imageElement);
+           containerDiv.appendChild(h6Element);
+
+           document.getElementById('firstDiv').appendChild(containerDiv);
+        }
+    </script>
+</body>
+</html>

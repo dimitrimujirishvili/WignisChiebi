@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="text1.css">
+    <link rel="icon" type="image/x-icon" href="anime1.jpg">
+    <title>
+        ანიმე სურათები.ge
+    </title>
+
+</head>
+
+<body style="background-color: rgb(252, 208, 215);">
+   
+    <img style="height: 100px; width: 100px; border-radius: 50px;" src="https://images6.fanpop.com/image/photos/43300000/cute-anime-girls-purrsugakits-43388514-400-400.jpg">
+        
+    <select name="forma" onchange="location = this.value;"   class="div2" style="margin-left: 1600px ;border-radius:20px ;width: 200px;border: 2px solid black; height: 50px; background-color: aqua; margin-top: -1000px;">
+        <option value="text.html">არჩევა</option>
+        <option value="text.html">საწყისი</option>
+        <option value="day1.html">უკან</option>
+        <option value="day2.html">ტუტორიალი</option>
+       </select>
+<mark style="color: blue;"><h2>ანიმეები დროდადრო დაემატება</h2></mark>
+
+    <br>
+    <br>
+    <br>
+ 
+    <div id="firstDiv" class="flex-container">
+    
+    </div>
+    <script>
+        const animes = [
+            { name: '<p><b><a href="default.asp" target="_blank">Uzumaki Naruto</a></b></p>', img: 'http://apksan.com/wp-content/uploads/2021/03/NARUTO-X-BORUTO-NINJA-VOLTAGE-Apk-New-Version-for-Android.png' },
+            { name: '<a href="day 33.html">Uchiha Sasuke</a>', img: 'https://w0.peakpx.com/wallpaper/960/99/HD-wallpaper-sasuke-naurot-shippuden-saske-saske-uchiha-sasuke-uchiha.jpg' },
+            { name: '<a href="day 34.html">Uchiha Itachi </a>', img: 'https://preview.redd.it/g68hl92c2kn51.jpg?width=640&crop=smart&auto=webp&s=ae9084c6b059fe82e9ccfbef701e158a313621bf' },
+            { name: '<a href="day 35.html">Kakashi Hatake </a>', img: 'https://i.pinimg.com/736x/02/8b/27/028b27dd9ebd34d5606c03d54376cc7d.jpg' },
+            { name: '<a href="day 36.html">Uchiha Obito </a>', img: 'https://cdn140.picsart.com/336183334045201.jpg' },
+            { name: '<a href="day 37.html">rin </a>', img: 'https://i.pinimg.com/474x/71/50/10/715010ab233d538340b43ce4a88372e5.jpg' },
+            { name: '<a href="day 38.html">Uzumaki Boruto</a>', img: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cd22b4a0-e3c5-48ce-a947-d4b53ed053c3/deg5q9z-10072e9a-e0a5-44f2-912a-22dc98b7e9a2.jpg/v1/fill/w_1920,h_2206,q_75,strp/boruto_uzumaki_boruto__naruto_next_generations_by_dakusuchirushinigami_deg5q9z-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjIwNiIsInBhdGgiOiJcL2ZcL2NkMjJiNGEwLWUzYzUtNDhjZS1hOTQ3LWQ0YjUzZWQwNTNjM1wvZGVnNXE5ei0xMDA3MmU5YS1lMGE1LTQ0ZjItOTEyYS0yMmRjOThiN2U5YTIuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.-NoHZFyIdt6LVrs5WgzqBI0Lt0OfklSTdImpOYxxqSU' },
+            { name: '<a href="day 39.html">Uchiha Sarada </a>', img: 'https://pbs.twimg.com/profile_images/1283524777270030336/vkWN51Hu_400x400.jpg' },
+            { name: '<a href="day 40.html">Micuki </a>', img: 'https://i.pinimg.com/736x/41/08/3b/41083b7ae0778596743746cd9fcddc13.jpg' },
+            { name: '<a href="day 41.html">Jiraiya </a>', img: 'https://64.media.tumblr.com/bb4c64414c75eca1b2f46861b7ac0cab/0378773c799af9d4-f6/s540x810/6ac13382c2050de3362b1128981dc03ba45370a8.jpg' },
+            { name: '<a href="day 42.html">Cunade senju </a>', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIywJtq6dPDgTOllTVmgHAvNJIUvASd150txhy2UPPVUuqVmJ1XpUA3zSsrxh8zFwP18o&usqp=CAU' },
+            { name: '<a href="day 43.html">Orochimaru </a>', img: 'https://64.media.tumblr.com/31c79d40ea91fec46b71cf062ef0db94/b8e378560d068b21-47/s500x750/83ead10c6e8c666ab217db9c8f688f32f36ea74c.jpg' },
+            { name: '<a href="day 44.html">Namikadze Minato </a>', img: 'https://pm1.narvii.com/6356/d1dd8fb7967ef8f726ebf7768f13324bb8c510c2_hq.jpg' },
+            { name: '<a href="day 45.html">Kushina Uzumaki </a>', img: 'https://photos1.iorbix.com/00/00/00/00/02/71/04/46/Kushina-Uzumaki-tMfG9pa59-b.jpg' },
+            { name: '<a href="day 46.html">Uchiha Madara </a>', img: 'https://pbs.twimg.com/profile_images/1218242897650372608/26S52EZo.jpg' },
+            { name: '<a href="day 47.html">Rock Lee </a>', img: 'https://i.pinimg.com/564x/3b/a6/90/3ba690b6abd8ba106f16051b36db985a.jpg' },
+            { name: '<a href="day 48.html">Hinata hyuga </a>', img: 'https://steamuserimages-a.akamaihd.net/ugc/1009314906368451189/7750D2D4DD17D71D2FCD445F4F34280A42A048B8/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false' },
+            { name: '<a href="day 49.html">Tenten</a>', img: 'https://cdn141.picsart.com/343335475116211.png?type=webp&to=min&r=640' },
+            { name: '<a href="day 50.html">Hashirama Senju </a>', img: 'https://64.media.tumblr.com/239329cb36eb688cc76eefff4d1d646a/c79b7aa77b572daa-d5/s500x750/ff6432c6b221bc26b231c6fa8f9b431570fed25b.jpg' },
+            { name: '<a href="day 51.html">Tobirama Senju </a>', img: 'https://i1.sndcdn.com/artworks-000498502002-1tm40e-t500x500.jpg' },
+            { name: '<a href="day 52.html">Kavawi</a> ', img: 'https://i.pinimg.com/236x/47/b9/ef/47b9ef052df2ccbf77e2b02038d022b0.jpg' },
+            { name: '<a href="day 53.html">Shikamaru </a>', img: 'https://i.pinimg.com/originals/c5/f8/92/c5f892b13ba516a67ff0da726e97a42d.jpg' },
+            { name: '<a href="day 54.html">Kiba</a> ', img: 'https://64.media.tumblr.com/5e34b363b8d6b2af22b6085a7af50964/c72ac2a4d65b7f34-c4/s1280x1920/ea82676cbd0185b63143a2a417879768b60d6685.jpg' },
+            { name: '<a href="day 55.html">Uzumaki Himawari</a> ', img: 'https://64.media.tumblr.com/c5858ec379dc4896b33fa746b1b85ff6/919e9b030c5a14ba-2f/s1280x1920/2823e812c6b65acaaa36253a60d687d0cb51d2ca.jpg' },
+    
+    ]
+            for (anime of animes) {
+           console.log(anime);
+           var containerDiv = document.createElement('div');
+
+           var imageElement = document.createElement('img');
+           imageElement.src = anime.img;
+
+           var italicElement = document.createElement('i');
+           italicElement.innerHTML = anime.name;
+           var h6Element = document.createElement('h6');
+           h6Element.appendChild(italicElement);
+
+           containerDiv.appendChild(imageElement);
+           containerDiv.appendChild(h6Element);
+
+           document.getElementById('firstDiv').appendChild(containerDiv);
+        }
+    </script>
+</body>
+</html>

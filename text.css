@@ -1,0 +1,138 @@
+.div {
+    margin-top: -805px;
+    margin-left: 0px;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.div1 {
+    margin-top: 300px;
+}
+.h21 {
+    margin-top: 45px;
+    margin-left: 450px;
+    margin-right: 70px;
+    width: 190px;
+    height: 40px;
+}
+.h2 {
+    margin-top: 45px;
+    margin-bottom: 300px;
+    margin-left: 450px;
+    margin-right: 70px;
+    width: 190px;
+    height: 40px;
+}
+.ditka{
+  border: 2px solid black;
+}
+.div2 {
+    margin-top: -3570px;
+    margin-left: 1570px;
+
+    border-radius: 20px;
+    height: 200px;
+    width: 100px;
+}
+.center{
+    text-align: center;
+    margin-top: -1700px;
+}
+.anime4 {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+}
+.dima {
+    margin-top: -140px;
+    margin-bottom: 50px;
+    margin-left: 700px;
+    margin-right: auto;
+}
+.div10 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.script1 {
+    margin-left: 92px;
+    width: 170px;
+}
+.script2 {
+    margin-left: 92px;
+    width: 150px;
+}
+.script3 {
+    margin-left: 92px;
+    width: 170px;
+}
+.script4 {
+    margin-left: 92px;
+    width: 150px;
+}
+.script5 {
+    margin-left: 92px;
+    width: 150px;
+}
+.script6 {
+    margin-left: 92px;
+    width: 150px;
+}
+.img1{
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dia {
+    margin-top: -75px;
+    margin-bottom: 50px;
+    margin-left: 800px;
+    margin-right: auto;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dimma {
+    margin-left: 1670px;
+
+    border-radius: 20px;
+    height: 200px;
+    width: 100px;
+}
+.anime {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+}
+.dito {
+    margin-top: 45px;
+    margin-bottom: 300px;
+    margin-left: 450px;
+    margin-right: 70px;
+}
+.h8 {
+    margin-top: -400px;
+    margin-bottom: 400px;
+    margin-right: 5px;
+    margin-left: 0px;
+    width: 400px;
+    height: 35px;
+}
+a {
+    text-decoration: none;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  a:hover {
+    color: rgb(255, 0, 0);
+  }

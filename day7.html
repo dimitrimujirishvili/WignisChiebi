@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="text1.css">
+    <link rel="icon" type="image/x-icon" href="anime1.jpg">
+    <title>
+        ანიმე სურათები.ge
+    </title>
+
+</head>
+
+<body style="background-color: rgb(252, 208, 215);">
+   
+    <img style="height: 100px; width: 100px; border-radius: 50px;" src="https://images6.fanpop.com/image/photos/43300000/cute-anime-girls-purrsugakits-43388514-400-400.jpg">
+        
+    <select name="forma" onchange="location = this.value;"   class="div2" style="margin-left: 1600px ;border-radius:20px ;width: 200px;border: 2px solid black; height: 50px; background-color: aqua; margin-top: -1000px;">
+        <option value="text.html">არჩევა</option>
+        <option value="index.html">საწყისი</option>
+        <option value="day1.html">უკან</option>
+        <option value="day2.html">ტუტორიალი</option>
+       </select>
+<mark style="color: blue;"><h2>ანიმეები დროდადრო დაემატება</h2></mark>
+
+    <br>
+    <br>
+    <br>
+ 
+    <div id="firstDiv" class="flex-container">
+    
+    </div>
+    <script>
+        const animes = [
+        { name: '<a href="day 55.html">Sakuta Azusagawa</a>', img: 'https://i1.sndcdn.com/avatars-kL5rd35Ac5SNyPH1-UDZW4Q-t500x500.jpg' },
+            { name: '<a href="day 55.html">Mai sakurajima</a>', img: 'https://i.pinimg.com/originals/cb/1a/69/cb1a691bf6dd5d7dab09c66498bff7b4.jpg' },
+            { name: '<a href="day 55.html">Tomoe Koa</a>', img: 'https://i.pinimg.com/736x/4b/51/20/4b5120a9541099c9963ef1c16d57473a.jpg' },
+            { name: '<a href="day 55.html">rio Futaba</a>', img: 'https://i.pinimg.com/originals/9c/2a/fa/9c2afab688c6202c87b3da8b69f0038b.jpg' },
+            { name: '<a href="day 55.html">Nodoka Toyohama</a>', img: 'https://i.pinimg.com/474x/bd/5a/a7/bd5aa72ca586e77c46ee322eeef65baa.jpg' },
+            { name: '<a href="day 55.html">Kaede Azusagawa</a>', img: 'https://i.pinimg.com/736x/79/54/d0/7954d09b4678fa0dbebc09377d4884ec.jpg' },
+            { name: '<a href="day 55.html">shoko Makinohara</a>', img: 'https://i.pinimg.com/originals/02/4e/5f/024e5f93a3a25afbe5d1f5dd9679c569.jpg' },
+    
+    ]
+            for (anime of animes) {
+           console.log(anime);
+           var containerDiv = document.createElement('div');
+
+           var imageElement = document.createElement('img');
+           imageElement.src = anime.img;
+
+           var italicElement = document.createElement('i');
+           italicElement.innerHTML = anime.name;
+           var h6Element = document.createElement('h6');
+           h6Element.appendChild(italicElement);
+
+           containerDiv.appendChild(imageElement);
+           containerDiv.appendChild(h6Element);
+
+           document.getElementById('firstDiv').appendChild(containerDiv);
+        }
+    </script>
+</body>
+</html>
+
