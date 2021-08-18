@@ -180,73 +180,87 @@
 
 </head>
 
-<body style="background-color: rgb(252, 208, 215);">
-    <div>
-        <img src="https://m.media-amazon.com/images/I/717IwXLCQhL._AC_SS450_.jpg" class="anime4">
-        </div>
+<body style="background-color: #0e1538;">
+    <h3 style="background-color: rgb(255, 255, 255); padding: 15px; text-align: right; width: 1865px; ">
+        <select style="width: 165px; height: 58px; border: solid black; background-color: lightblue; color: black;"
+            name="forma" onchange="location = this.value;">
+          
+            <option value="day5.html">
+                <h3>საიტის შესახებ</h3>
+            </option>
+            <option value="day4.html">
+                <h3>ანიმეს ისტორია</h3>
+            </option>
+            <option value="day2.html">
+                <h3>ტუტორიალი</h3>
+            </option>
+        </select>
+        <a style="background-color: rgb(255, 255, 255); padding: 15px;background-color: lightblue; color: black; text-align: right; width: 1865px;border: solid black; margin-left: 7px; "
+        href="day1.html">უკან</a>
+        <a style="background-color: rgb(255, 255, 255); padding: 15px;background-color: lightblue; color: black; text-align: right; width: 1865px;border: solid black; margin-left: 7px; "
+            href="dima.html">ანიმე ედითორები</a>
+        <a style="background-color: rgb(255, 255, 255); padding: 15px;background-color: lightblue; color: black; text-align: right; width: 1865px;border: solid black; margin-left: 7px;"
+            href="dima1.html">ვიდეოები</a>
+        <a style="background-color: rgb(255, 255, 255); padding: 15px;background-color: lightblue; color: black; text-align: right; width: 1865px;border: solid black; margin-left: 7px;"
+            href="day1.html">სურათები</a>
 
-        <select name="forma" onchange="location = this.value;" class="dimma"
-        style="border: 2px solid black; height: 50px; background-color: aqua; margin-top: -1500px; width: 200px;" >
-        <option value="text.html">არჩევა</option>
-        <option value="index.html">საწყისი</option>
-        <option value="day1.html">უკან</option>
-        <option value="day2.html">ტუტორიალი</option>
-    </select>
-    
+    </h3>
+
 
     <br>
     <br>
     <br>
-  
+
     <div id="firstDiv" class="flex-container">
-        
+
     </div>
     <br>
     <script>
         const animes = [
 
-            { name: '<p><b><a href="default.asp" target="_blank">Midoria Izuko</a></b></p>', img: 'https://i.pinimg.com/originals/b1/44/31/b144315309ffbf4efc84fb4cb5916fe2.jpg' },
-            { name: '<a href="day 10.html">katasuki bakugo</a>', img: 'https://pbs.twimg.com/profile_images/1280104306964865024/r3oJsfr1_400x400.jpg' },
-            { name: '<a href="day 11.html">shoto todoroki</a>', img: 'https://i.pinimg.com/originals/50/b2/b1/50b2b181190e93bd8a840036df9bf18d.png' },
-            { name: '<a href="day 12.html">Momo Yaoyorozu</a>', img: 'https://i.pinimg.com/736x/fa/bb/13/fabb13eb7a2d21ba70d2fa22d7b6b0cc.jpg' },
-            { name: '<a href="day 13.html">ochaco uraraka</a>', img: 'https://i.pinimg.com/originals/a2/74/b4/a274b47e5ae5c3606695e2d76205d416.jpg' },
-            { name: '<a href="day 14.html">Himiko Toga</a>', img: 'https://i.pinimg.com/originals/30/f8/5d/30f85d00beca792d5b83e1659793ca1f.jpg' },
-            { name: '<a href="day 15.html">eijiro kirishima</a>', img: 'https://i.pinimg.com/originals/0b/e1/e6/0be1e6d02681c185bf2267e08cb5e13d.jpg' },
-            { name: '<a href="day 16.html">Shota aizava</a>', img: 'https://i.pinimg.com/originals/53/1a/c7/531ac7a86c460ab31d3828709bc8ba9d.jpg' },
-            { name: '<a href="day 17.html">Minoru Mineta</a>', img: 'https://i.pinimg.com/originals/a0/1a/b6/a01ab6354750d4c81498dd3ce9ff3443.jpg' },
-            { name: '<a href="day 18.html">kyouka Jirou</a>', img: 'https://pbs.twimg.com/profile_images/1343025303636086785/kFQlADSH_400x400.jpg' },
-            { name: '<a href="day 19.html">dabi</a>', img: 'https://64.media.tumblr.com/fcdbd36defd5756b0c990abedf208fe2/ea1936cdf0772257-ae/s400x600/fc643d1f8493f67395e7699f3fd64f5b4bed8c5e.png' },
-            { name: '<a href="day 20.html">denki Kaminari</a>', img: 'https://i.pinimg.com/originals/2d/89/35/2d8935e797c78259827896efffe680b3.jpg' },
-            { name: '<a href="day 21.html"> Eri</a>', img: 'https://cdn141.picsart.com/315312496008211.png?type=webp&to=min&r=640' },
-            { name: '<a href="day 22.html">Tomura Shigaraki</a>', img: 'https://i.pinimg.com/736x/0f/ef/c8/0fefc8cf7e6c6c766a2d8791386037d4.jpg' },
-            { name: '<a href="day 23.html">tenya lida</a>', img: 'https://pbs.twimg.com/profile_images/1287914381355954186/a11Us1S1.jpg' },
-            { name: '<a href="day 24.html">Fumikage Tokoyami</a>', img: 'https://p4.wallpaperbetter.com/wallpaper/441/797/201/anime-my-hero-academia-fumikage-tokoyami-hd-wallpaper-preview.jpg' },
-            { name: '<a href="day 25.html"> Enji Todoroki(Endeavor)</a>', img: 'https://pbs.twimg.com/profile_images/1308292792045584384/R7HEVAcl_400x400.jpg' },
-            { name: '<a href="day 26.html">Hitoshi Shinso</a>', img: 'https://i.quotev.com/img/q/u/19/11/15/d3lxum32yy.jpg/' },
-            { name: '<a href="day 27.html">Toru Nagakure</a>', img: 'https://pbs.twimg.com/media/DN_LLDSWAAAcian.jpg' },
-            { name: '<a href="day 28.html">Mina Ashido</a>', img: 'https://64.media.tumblr.com/34e564d211766a5908c9dfc07ee837fb/tumblr_otx1wc6O2v1vy2tgqo2_400.jpg' },
-            { name: '<a href="day 29.html">Hanta Sero</a>', img: 'https://static.wikia.nocookie.net/bokunoheroacademia/images/b/b3/Hanta_Sero_Hero_Costume_Anime_Action.png/revision/latest?cb=20200107060935&path-prefix=es' },
-            { name: '<a href="day 30.html">Yuga Aoyama</a>', img: 'https://wallpaperaccess.com/full/4346317.png' },
-            { name: '<a href="day 31.html">All Might</a>', img: 'https://i.pinimg.com/736x/7e/a1/d3/7ea1d311a90d8b81c8cf7e2ec074cec3.jpg' },
+            { name: '<p><b><a style="color: yellow;" href="default.asp" target="_blank">Midoria Izuko</a></b></p>', img: 'https://i.pinimg.com/originals/b1/44/31/b144315309ffbf4efc84fb4cb5916fe2.jpg' },
+            { name: '<a style="color: yellow;" href="day 10.html">katasuki bakugo</a>', img: 'https://pbs.twimg.com/profile_images/1280104306964865024/r3oJsfr1_400x400.jpg' },
+            { name: '<a style="color: yellow;" href="day 11.html">shoto todoroki</a>', img: 'https://i.pinimg.com/originals/50/b2/b1/50b2b181190e93bd8a840036df9bf18d.png' },
+            { name: '<a style="color: yellow;" href="day 12.html">Momo Yaoyorozu</a>', img: 'https://i.pinimg.com/736x/fa/bb/13/fabb13eb7a2d21ba70d2fa22d7b6b0cc.jpg' },
+            { name: '<a style="color: yellow;" href="day 13.html">ochaco uraraka</a>', img: 'https://i.pinimg.com/originals/a2/74/b4/a274b47e5ae5c3606695e2d76205d416.jpg' },
+            { name: '<a style="color: yellow;" href="day 14.html">Himiko Toga</a>', img: 'https://i.pinimg.com/originals/30/f8/5d/30f85d00beca792d5b83e1659793ca1f.jpg' },
+            { name: '<a style="color: yellow;" href="day 15.html">eijiro kirishima</a>', img: 'https://i.pinimg.com/originals/0b/e1/e6/0be1e6d02681c185bf2267e08cb5e13d.jpg' },
+            { name: '<a style="color: yellow;" href="day 16.html">Shota aizava</a>', img: 'https://i.pinimg.com/originals/53/1a/c7/531ac7a86c460ab31d3828709bc8ba9d.jpg' },
+            { name: '<a style="color: yellow;" href="day 17.html">Minoru Mineta</a>', img: 'https://i.pinimg.com/originals/a0/1a/b6/a01ab6354750d4c81498dd3ce9ff3443.jpg' },
+            { name: '<a style="color: yellow;" href="day 18.html">kyouka Jirou</a>', img: 'https://pbs.twimg.com/profile_images/1343025303636086785/kFQlADSH_400x400.jpg' },
+            { name: '<a style="color: yellow;" href="day 19.html">dabi</a>', img: 'https://64.media.tumblr.com/fcdbd36defd5756b0c990abedf208fe2/ea1936cdf0772257-ae/s400x600/fc643d1f8493f67395e7699f3fd64f5b4bed8c5e.png' },
+            { name: '<a style="color: yellow;" style="color: yellow;" href="day 20.html">denki Kaminari</a>', img: 'https://i.pinimg.com/originals/2d/89/35/2d8935e797c78259827896efffe680b3.jpg' },
+            { name: '<a style="color: yellow;" href="day 21.html"> Eri</a>', img: 'https://cdn141.picsart.com/315312496008211.png?type=webp&to=min&r=640' },
+            { name: '<a style="color: yellow;" href="day 22.html">Tomura Shigaraki</a>', img: 'https://i.pinimg.com/736x/0f/ef/c8/0fefc8cf7e6c6c766a2d8791386037d4.jpg' },
+            { name: '<a style="color: yellow;"href="day 23.html">tenya lida</a>', img: 'https://pbs.twimg.com/profile_images/1287914381355954186/a11Us1S1.jpg' },
+            { name: '<a style="color: yellow;"href="day 24.html">Fumikage Tokoyami</a>', img: 'https://p4.wallpaperbetter.com/wallpaper/441/797/201/anime-my-hero-academia-fumikage-tokoyami-hd-wallpaper-preview.jpg' },
+            { name: '<a style="color: yellow;" href="day 25.html"> Enji Todoroki(Endeavor)</a>', img: 'https://pbs.twimg.com/profile_images/1308292792045584384/R7HEVAcl_400x400.jpg' },
+            { name: '<a style="color: yellow;" href="day 26.html">Hitoshi Shinso</a>', img: 'https://i.quotev.com/img/q/u/19/11/15/d3lxum32yy.jpg/' },
+            { name: '<a style="color: yellow;" href="day 27.html">Toru Nagakure</a>', img: 'https://pbs.twimg.com/media/DN_LLDSWAAAcian.jpg' },
+            { name: '<a style="color: yellow;" href="day 28.html">Mina Ashido</a>', img: 'https://64.media.tumblr.com/34e564d211766a5908c9dfc07ee837fb/tumblr_otx1wc6O2v1vy2tgqo2_400.jpg' },
+            { name: '<a style="color: yellow;" href="day 29.html">Hanta Sero</a>', img: 'https://static.wikia.nocookie.net/bokunoheroacademia/images/b/b3/Hanta_Sero_Hero_Costume_Anime_Action.png/revision/latest?cb=20200107060935&path-prefix=es' },
+            { name: '<a style="color: yellow;" href="day 30.html">Yuga Aoyama</a>', img: 'https://wallpaperaccess.com/full/4346317.png' },
+            { name: '<a style="color: yellow;" href="day 31.html">All Might</a>', img: 'https://i.pinimg.com/736x/7e/a1/d3/7ea1d311a90d8b81c8cf7e2ec074cec3.jpg' },
         ]
 
         for (anime of animes) {
-           console.log(anime);
-           var containerDiv = document.createElement('div');
+            console.log(anime);
+            var containerDiv = document.createElement('div');
 
-           var imageElement = document.createElement('img');
-           imageElement.src = anime.img;
+            var imageElement = document.createElement('img');
+            imageElement.src = anime.img;
 
-           var italicElement = document.createElement('i');
-           italicElement.innerHTML = anime.name;
-           var h6Element = document.createElement('h6');
-           h6Element.appendChild(italicElement);
+            var italicElement = document.createElement('i');
+            italicElement.innerHTML = anime.name;
+            var h6Element = document.createElement('h6');
+            h6Element.appendChild(italicElement);
 
-           containerDiv.appendChild(imageElement);
-           containerDiv.appendChild(h6Element);
+            containerDiv.appendChild(imageElement);
+            containerDiv.appendChild(h6Element);
 
-           document.getElementById('firstDiv').appendChild(containerDiv);
+            document.getElementById('firstDiv').appendChild(containerDiv);
         }
     </script>
 </body>
+
 </html>
