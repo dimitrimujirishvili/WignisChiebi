@@ -134,5 +134,41 @@ a {
     border: 1px solid black;
   }
   a:hover {
-    color: rgb(255, 0, 0);
+   color: rgb(255, 0, 0);
   }
+
+  #button{
+	border-radius: 20px;
+	border: 4px solid black;
+	background-color: #ffa100;
+	width: 150px;
+	height: 50px;
+	transition-duration: 0.25s;
+    padding: auto;
+}
+
+#button:hover{
+	border-radius: 20px;
+	border: 2px solid black;
+	background-color: rgb(238, 255, 0);
+	width: 150px;
+	height: 60px;
+}
+#select{
+	border-radius: 20px;
+	border: 4px solid black;
+	background-color: #ffa100;
+	width: 150px;
+	height: 50px;
+	transition-duration: 0.25s;
+    padding: auto;
+    
+}
+
+#select:hover{
+	border-radius: 20px;
+	border: 4px solid black;
+	background-color: rgb(238, 255, 0);
+	width: 150px;
+	height: 70px;
+}
