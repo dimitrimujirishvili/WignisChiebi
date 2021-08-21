@@ -139,7 +139,7 @@ a {
     background-color: rgb(255, 0, 0);
   }
 
-  #button{
+  #h3{
 	border-radius: 20px;
 	border: 4px solid black;
 	background-color: #ffa100;
@@ -147,12 +147,16 @@ a {
 	height: 50px;
 	transition-duration: 0.25s;
     padding: auto;
+    background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+
 }
 
-#button:hover{
+#h3:hover{
 	border-radius: 20px;
 	border: 2px solid black;
 	background-color: rgb(238, 255, 0);
 	width: 150px;
 	height: 60px;
+    animation: rotate 0.4s linear infinite;
+
 }
